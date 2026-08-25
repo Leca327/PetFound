@@ -2,7 +2,7 @@
 
 Plataforma digital que reúne ONGs de proteção animal, cuidadores temporários, pessoas físicas e empresas do ramo pet em um único lugar, com o objetivo de aumentar o número de adoções responsáveis e reduzir a quantidade de animais abandonados nas ruas e em abrigos.
 
-Trabalho de Conclusão de Curso — Curso Técnico em Informática, Instituto Superior de Educação do Rio de Janeiro (ISERJ/FAETEC), maio de 2023.
+Trabalho de Conclusão de Curso — Curso Técnico em Informática, Instituto Superior de Educação do Rio de Janeiro (ISERJ/FAETEC), 2023.
 
 ---
 
