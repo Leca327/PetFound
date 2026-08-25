@@ -1,0 +1,154 @@
+.editsadm {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(47, 172, 255);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 9999;
+}
+
+button:disabled{
+    background-color: #b6622a;
+    
+}
+
+.filtro{
+    text-align: center;
+}
+
+.delsadm {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+.sairadm {
+    position: absolute;
+    left: 10vh;
+    top: 1vh;
+    border-radius: 10px;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #662901;
+}
+
+.delsadm {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+.btnS1 {
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: green;
+
+}
+
+.btnS2 {
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: red;
+
+}
+
+.btnS3 {
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: white;
+}
+
+.btns{
+    margin-top: 10px;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+
+.btns2{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.btnS4 {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: white;
+
+}
+
+select {
+    margin-top: 6vh;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #662901;
+}
+
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background-color: #ff924b;
+
+}
+
+.btnS6{
+    color: white;
+    padding: 5px 30px;
+    background-color: #662901;
+    border-radius: 10px;
+
+}
+
+
+.tbladm td {
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 5px;
+}
+
+.tbladm {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    border-collapse: collapse;
+    list-style: none;
+    border-radius: 15px;
+    color: white;
+    background: #662901;
+}
+
+.poss {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2.5vh;
+}

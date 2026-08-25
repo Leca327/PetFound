@@ -1,0 +1,315 @@
+.nvr {
+  width: 34.5vh;
+  /* Ajuste a largura conforme necessário */
+  overflow-y: scroll;
+  height: auto;
+  background-color: var(--fundosecundario1);
+  padding: 20px;
+}
+
+.nvr ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.aaa{
+  height: 10vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #ff6600, #ff924b);
+}
+
+input:disabled{
+  background-color: #b6622a;
+}
+
+.NeP{
+  display: grid;
+grid-template-columns: repeat(2,2fr);
+}
+.flcn{
+  text-align: right;
+}
+
+.button_op {
+  background-color: var(--fundosecundario1);
+  border: none;
+  color: var(--textoprincipal);
+  padding: 0.9vh 2vh;
+  width: 28vh;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 2vh;
+}
+
+.sbutton_op {
+  background-color: var(--fundosecundario1);
+  border: none;
+  color: var(--textoprincipal);
+  padding: 0.9vh 3vh;
+  width: 28vh;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 2vh;
+}
+
+#auto-resize-textarea {
+  width: 230px; /* Define a largura desejada */
+  resize: none; /* Evita que o usuário redimensione a textarea manualmente */
+  overflow: hidden; /* Oculta barras de rolagem */
+}
+
+
+.sbutton_op:hover {
+  background-color: var(--fundoprincipal1);
+}
+
+hr {
+  border-color: var(--fundosecundario2);
+  width: 90%;
+  margin: auto;
+}
+
+.nvr h3 {
+  margin-left: 2vh;
+  font-size: 3vh;
+}
+
+.nvr li a {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 1vh;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.filtrar{
+  font-size: 1.5vh;
+  border-radius: 10px;
+  color: white;
+  background-color: #662901;
+  padding: 5px 10px;
+}
+
+.avaliar {
+  font-size: 1.5vh;
+  border-radius: 10px;
+  background-color: #662901;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.avaliar a{
+  color: white;
+
+}
+
+#dstserv,#dstpet,#arqcontpet,#arqcontserv,#arqcontserv2,#arqcontpet2{
+  font-size: 1.5vh;
+  border-radius: 10px;
+  color: white;
+  background-color: #662901;
+  padding: 5px 10px;
+}
+
+#apvserv ,#apvpet,#finalcontpet,#finalcontserv,#finalcontserv2,#finalcontpet2{
+  font-size: 1.5vh;
+  border-radius: 10px;
+  color: white;
+  background-color: #662901;
+  padding: 5px 10px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 3vh;
+}
+
+.selected {
+  background-color: var(--fundoprincipal1);
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*card de anuncio painel*/
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.anuserv:hover .image-container img {
+  filter: brightness(70%);
+  transition: filter 0.3s ease; 
+}
+
+.edt{
+  color: black;
+}
+
+.imgserv {
+  border-radius: 20px;
+  width: 230px;
+  height: 230px;
+}
+
+.anuserv {
+  border-radius: 20px;
+  background-color: var(--fundosecundario1);
+  width: 30vh;
+  height: 37.5vh;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 5px; /* Ajuste a margem para controlar o espaçamento entre os cards */
+  padding: 20px;
+  height: auto;
+}
+
+.anuinfo label {
+  margin-left: 10px;
+  text-align: start;
+  margin-top: 5px;
+  display: block;
+  font-size: 18px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.buttons {
+  display: none;
+  margin-top: 10px;
+  text-align: center;
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.buttons button {
+  background: var(--fundoprincipal1);
+  border: none;
+  border-radius: 5px;
+  margin-top: 2vh;
+  display: block;
+  width: 100px;
+  padding: 10px 10px;
+}
+
+.btnexcluir {
+  background: red;
+}
+
+
+input{
+  font-size: 1.5vh;
+  border-radius: 10px;
+  color: white;
+  background-color: #662901;
+  padding: 10px 30px;
+  width: auto;
+}
+
+.GC{
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ff924b;
+}
+
+.radioGC1 {
+  text-align: center;
+}
+
+
+a{
+  color: #ff6600;
+}
+
+.radioGC {
+  text-align: center;
+}
+
+.radioGC input[type="radio"],
+.radioGC input[type="submit"] {
+  margin: 10px; /* Adicione a margem desejada aqui */
+}
+
+.sttsalign{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NeP1{
+  text-align: center;
+}
+
+.sttsalignpet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+
+}
+
+.stts1{
+  text-align: center;
+  color: #ff0000;
+}
+
+.stts2{
+  text-align: center;
+  color: #00ff2a;
+}
+
+.stts3{
+ text-align: center;
+  color: gray;
+}
+
+.msgandbtn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+  
+.radioGC input[type="radio"] {
+  margin: 5px;
+  padding: 8px !important;
+  appearance: none;
+  border: 2px solid #333; /* Cor da borda desejada */
+}
+
+.radioGC input[type="radio"]:checked {
+  background-color: #ff6600; /* Cor de preenchimento quando selecionado */
+}
+
+.radioGC1 input[type="radio"] {
+  margin: 5px;
+  padding: 8px !important;
+  appearance: none;
+  border: 2px solid #333; /* Cor da borda desejada */
+}
+
+.radioGC1 input[type="radio"]:checked {
+  background-color: #ff6600; /* Cor de preenchimento quando selecionado */
+}
+
+
+

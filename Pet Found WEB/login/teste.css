@@ -1,0 +1,96 @@
+element.style {
+    display: grid
+}
+.swal2-container.swal2-center > .swal2-popup {
+    grid-area: 2 / 2 / auto / auto;
+    place-self: center;
+}
+.swal2-show {
+    animation: 0.3s ease 0s 1 normal none running swal2-show;
+}
+[class^="swal2"] {
+    -webkit-tap-highlight-color: transparent;
+}
+.swal2-popup {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0px, 100%);
+    width: 32em;
+    max-width: 100%;
+    padding: 0px 0px 1.25em;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(84, 84, 84);
+    font-family: inherit;
+    font-size: 1rem;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body, input, textarea, select, button {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+    padding-bottom: 2em;
+    background-color: #f2f4f6 !important;
+    color: #555 !important;
+    line-height: 1.5;
+    text-align: center !important;
+}
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-size: 1rem;
+}
+
+inherited from html.no-touch.swal2-show.swal2-heigh-auto
+:root {
+    --docsearch-primary-color: #ff54b3;
+    --docsearch-text-color: #eb6ae7;
+    --docsearch-spacing: 12px;
+    --docsearch-icon-stroke-width: 1.4;
+    --docsearch-highlight-color: var(--docsearch-primary-color);
+    --docsearch-muted-color: #969faf;
+    --docsearch-container-background: rgba(101,108,133,0.8);
+    --docsearch-logo-color: #897786;
+    --docsearch-modal-width: 560px;
+    --docsearch-modal-height: 600px;
+    --docsearch-modal-background: #f5f6f7;
+    --docsearch-modal-shadow: inset 1px 1px 0 0 hsla(0,0%,100%,0.5),0 3px 8px 0 #555a64;
+    --docsearch-searchbox-height: 56px;
+    --docsearch-searchbox-background: #ebedf0;
+    --docsearch-searchbox-focus-background: #fff;
+    --docsearch-searchbox-shadow: inset 0 0 0 2px var(--docsearch-primary-color);
+    --docsearch-hit-height: 56px;
+    --docsearch-hit-color: #444950;
+    --docsearch-hit-active-color: #fff;
+    --docsearch-hit-background: #fff;
+    --docsearch-hit-shadow: 0 1px 3px 0 #d4d9e1;
+    --docsearch-key-gradient: linear-gradient(-225deg,#d5dbe4,#f8f8f8);
+    --docsearch-key-shadow: inset 0 -2px 0 0 #cdcde6,inset 0 0 1px 1px #fff,0 1px 2px 1px rgba(30,35,90,0.4);
+    --docsearch-footer-height: 44px;
+    --docsearch-footer-background: #fff;
+    --docsearch-footer-shadow: 0 -1px 0 0 #e0e3e8,0 -3px 6px 0 rgba(69,98,155,0.12);
+}
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+@keyframes swal2-show{
+0% {
+    transform: scale(0.7);
+}
+45% {
+    transform: scale(1.05);
+}
+80% {
+    transform: scale(0.95);
+}
+100% {
+    transform: scale(1);
+}
+}

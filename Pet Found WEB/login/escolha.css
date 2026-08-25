@@ -1,0 +1,217 @@
+
+body{
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+.main-login{ /*fundo*/
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,102,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 {/*letras esquerdas*/
+    font-size: 3vw;
+    color: rgb(243,241,241);
+}
+
+
+.usuario{
+    margin-left: 1vh;
+    font-size: 3vh;
+}
+
+.main-login .left-login .pet{
+    color: rgb(243,241,241);
+}
+
+
+.senha{
+    margin-left: 1vh;
+    font-size: 3vh;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat();
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vh;
+    
+}
+
+
+.card-login{ /*card de login*/
+    margin-right: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(43,17,0);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1 { /*palavra "login"*/
+    color: rgb(255,102,0);
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+
+.textfield > input{
+    width:  100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(102, 41, 1);
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-top: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffffde;
+}
+
+.inicio{
+    text-align: center;
+    width: 10vh;
+    border-radius: 2vh;
+    background-color: #f0ffffde;
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+
+}
+
+.btn-fisica{
+    width: 90vh;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(43,17,0);
+    background: rgb(255,102,0);
+    cursor: pointer;
+    
+}
+
+
+
+.btn-ong{
+    width: 90vh;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(43,17,0);
+    background: rgb(255,102,0);
+    cursor: pointer;
+
+}
+
+.frase{
+    font-size: 2vh;
+    color: #f0ffffde;
+}
+
+
+.esqueci{
+    color: #f0ffffde;
+    font-size: 2.5vh;
+    margin-right: 30vh;
+}
+
+.voltar{
+    display: flex;
+    height: 5.5vh;
+    color:rgb(43,17,0) ;
+    text-align: center;
+    align-items: center;
+    width: 10vh;
+    border-radius: 8px;
+    background-color: rgb(255,102,0);
+    position: absolute;
+    top: 65.5vh;
+    left: 125vh;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        width: auto;
+    }
+    .right-login{
+        width: 100%;
+        width: auto;
+    }
+    .left-login{
+        width: 50vw;
+    }
+    .left-login-img{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}

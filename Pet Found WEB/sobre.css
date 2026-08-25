@@ -1,0 +1,94 @@
+body{
+    background-image: url('./assets/fundoo2.png');
+}
+
+.nos{
+    margin-top: 100px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sntittle{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+}
+
+.slogan{
+    border-radius: 20px;
+    width: 500px;
+    font-size: 10vh;
+    text-align: center;
+}
+
+
+.intro{
+    width: 500px;
+    text-align: center;
+    font-size: 2vh;
+    margin-right: 4vh;
+    margin-top: 3vh;
+}
+
+.imgcentro{
+    width: 500px;
+    height: 500px;
+
+}
+
+.intittle{
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    margin-top: 12vh;
+
+}
+
+.tittle{
+    display: flex;
+    justify-content: end;
+    margin-right: 21.5vh; 
+}
+
+.imgint{
+    border-radius: 20px;
+    background-color: #acacac;
+    height: 35vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgint img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.definicao{
+    width: 500px;
+    text-align: center;
+    font-size: 4vh;
+
+}
+
+.objtgr{
+    width: 500px;
+    text-align: justify;
+    font-size: 2.3vh;
+
+}
+
+.objt{   
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+

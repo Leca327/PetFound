@@ -1,0 +1,217 @@
+/*Right-side*/
+
+.right-side {
+    display: grid;
+    grid-template-rows: auto;
+    /* This will automatically adjust the height of each row based on its content */
+    gap: 15px;
+    /* You can adjust this value to set the gap between rows */
+    margin-left: 97vh;
+    margin-top: 15vh;
+}
+
+.nomepet {
+    font-size: 5vh;
+    color: var(--fundoprincipal1);
+}
+
+.infopet,
+.infopet2,
+.entctt,
+.history,
+.history2,
+.descpet2,
+.anunc {
+    font-size: 1.8vh;
+    color: var(--fundoprincipal2);
+}
+
+.descpet {
+    font-size: 2.5vh;
+    color: var(--fundosecundario1);
+}
+
+.anunc {
+    text-align: start;
+}
+
+.history2,
+.descpet2 {
+    width: 60vh;
+    word-wrap: break-word;
+}
+
+.entctt {
+    background: var(--fundoprincipal2);
+    color: var(--textoprincipal);
+    width: 30%;
+    height: 5%;
+    border-radius: 10px;
+    font-size: 2vh;
+    border: none;
+}
+
+.entctt:hover {
+    transition: 0.3s;
+    background: var(--fundosecundario2);
+}
+
+.history {
+    font-size: 3vh;
+    color: var(--fundoprincipal2);
+}
+
+
+
+
+.adtbttn {
+    border: none;
+    background: var(--fundoprincipal2);
+    color: var(--textoprincipal);
+    width: 50vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 2vh;
+
+}
+
+.adtbttn:hover {
+    transition: 0.3s;
+    background: var(--fundosecundario2);
+}
+
+.adtbttncont {
+    border: none;
+    background: var(--fundoprincipal2);
+    color: var(--textoprincipal);
+    width: 50vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 2vh;
+
+}
+
+.adtbttnoff {
+    border: none;
+    background: var(--fundoprincipal2);
+    color: var(--textoprincipal);
+    width: 50vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 2vh;
+
+}
+
+.adtbttnoff:hover {
+    transition: 0.3s;
+    background: var(--fundosecundario2);
+}
+
+.adtbttndono:hover {
+    transition: 0.3s;
+    background: var(--fundosecundario2);
+}
+
+.adtbttndono {
+    border: none;
+    background: var(--fundoprincipal2);
+    color: var(--textoprincipal);
+    width: 50vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 2vh;
+
+}
+
+/*Fim Right-side*/
+
+/*Left-side*/
+
+
+
+.anunc2 {
+    position: absolute;
+    font-size: 2vh;
+    color: var(--fundoprincipal1);
+    top: 86vh;
+    left: 26vh;
+}
+
+.road {
+    color: var(--fundosecundario1);
+    font-size: 1.8vh;
+    position: absolute;
+    left: 26vh;
+    top: 15vh;
+}
+
+.road2 {
+    font-size: 1.8vh;
+    position: absolute;
+    color: var(--fundosecundario1);
+    left: 33vh;
+    top: 15vh;
+}
+
+.road3 {
+    font-size: 1.8vh;
+    position: absolute;
+    color: var(--fundoprincipal1);
+    left: 49vh;
+    top: 15vh;
+}
+
+.imgpet {
+    border-radius: 10px;
+    margin-left: 1vh;
+    position: absolute;
+    height: 65vh;
+    width: 65vh;
+    top: 20vh;
+    left: 25vh;
+    border: 1px solid black;
+}
+
+.adocao {
+    margin-left: 25vh;
+    display: flex;
+    align-items: center;
+    margin-right: 10vh;
+}
+
+.hnvpets {
+    margin-top: 35vh;
+    margin-left: 25vh;
+}
+
+.hnvpets2 {
+    margin-top: 5vh;
+    margin-left: 25vh;
+}
+
+
+
+.petlar {
+    text-align: center;
+    color: var(--fundosecundario2);
+    border: solid 2px;
+    border-color: var(--fundosecundario2);
+    background-color: var(--fundopagina);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 61vh;
+}
+
+.petlar2 {
+    text-align: center;
+    color: var(--fundosecundario2);
+    border: solid 2px;
+    border-color: var(--fundosecundario2);
+    background-color: var(--fundopagina);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0; /* Remova qualquer margem existente */
+    display: block; /* Certifica-se de que ele ocupe toda a largura do contêiner */
+    width: fit-content; /* Ajusta a largura para caber o conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}

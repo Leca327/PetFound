@@ -1,0 +1,218 @@
+.nvpet{
+    margin-top: 5vh;
+    margin-left: 12.5vh;
+
+    
+  }
+  .flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 38vh;
+    margin-top: 5vh;
+    
+    
+}
+
+.card{
+    text-align: center;
+    background: var(--fundosecundario1);
+    width: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    color: var(--textoprincipal);
+    
+    
+}
+
+
+
+body .container{
+  display: flex;
+  justify-content: center;
+  align-content: center;  
+}
+
+.container{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  margin-right: 5vh;
+}
+
+.container .carta {
+    width: 100%;
+    background-color: white;
+}
+
+.container .carta .imgcard{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+
+.container .carta .imgcard img{/*propriedades do zoom da imagem*/
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: center;
+}
+
+.container .carta:hover .imgcard img{/*tamanho do zoom imagem*/
+    transform: scale(1.5);
+
+}
+
+.action{/*simbolos: coracao,carrinho,olho*/
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+.action li{/*escrita dos simbolos*/
+    position: relative;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transform: translateX(60px);
+}
+
+.action li:nth-child(2){/*efeito das escritas dos simbolos*/
+    transition-delay: 0.15s;
+}
+
+.action li:nth-child(3){
+    transition-delay: 0.3s;
+}
+
+
+.container .carta:hover .action li{
+    transform:  translateX(0px);
+
+}
+
+.action li span{/*efeito dos simbolos*/
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-20px);
+    white-space: nowrap;
+    padding: 4px 20px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.5s;
+    width: 30vh;
+}
+
+.action li:hover span{
+    transform: translateY(-50%) translateX(-20px);
+    opacity: 1;
+
+}
+
+.action li span::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    width: 8px;
+    height: 8x;
+    background: white;
+    transform: translateY(-50%) rotate(45deg);
+
+
+}
+
+.action li:hover{
+    background: red;
+    color: white;
+}
+
+.container .carta .content{
+    padding: 10px;
+}
+
+.container .carta .content .namepet h3{
+    font-size: 15px;
+    color: var(--fundoprincipal2);
+    margin: 5px 0;
+}
+.container .carta .content .price{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+
+.container .carta .content .price h2{
+    font-size: 20px;
+    color:red;
+    font-weight: 500;
+}
+
+.container .carta .content .price .fa{
+    color: yellow;
+    cursor: pointer;    
+    
+}
+
+.container .carta .content .price .fa.gray{
+    color: gray;
+}
+
+
+.cards{
+    height: 200px;
+    width: 100%;
+    background: url('images.jpg');
+    border-radius: 5px;
+    background-size: cover;
+    text-align: center;
+   
+    
+}
+
+.aa{
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: var(--fundosecundario2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--Textosecundario);
+    text-decoration: none;
+    font-size: 15px;
+    
+   
+    
+}
+
+.adocao {
+    display: flex;
+    align-items: center;
+    margin-right: 10vh;
+  }

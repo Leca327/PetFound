@@ -1,0 +1,79 @@
+.nvr {
+    width: 34.5vh; /* Ajuste a largura conforme necessário */
+    height: 100vh;
+    background-color: var(--fundosecundario1);
+    padding: 20px;
+  }
+  
+  .nvr ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .button_op {
+    background-color: var(--fundosecundario1);
+    border: none;
+    color: var(--textoprincipal);
+    padding: 0.9vh 2vh;
+    width: 28vh;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 2vh;
+  }
+  
+  .button_op:hover {
+    background-color: var(--fundoprincipal1);
+  }
+  
+  hr {
+    border-color: var(--fundosecundario2);
+    width: 90%;
+    margin: auto;
+  }
+  
+  .nvr h3 {
+    margin-left: 2vh;
+    font-size: 3vh;
+  }
+  
+  .nvr li a {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 1vh;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  form{
+    padding: 10px;
+  }
+
+  input,select{
+    border-radius: 10px;
+    color: white;
+    background: #ff924b;
+    padding: 5px;
+  }
+
+  
+ 
+  .right {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .selected {
+    background-color: var(--fundoprincipal1);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

@@ -1,0 +1,151 @@
+body {
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-position-y: 8.5vh;
+    background-position-x: -2vh;
+
+}
+
+
+.imgSac {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.tittle4 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.fa-whatsapp {
+    font-size: 4vh;
+
+}
+
+.centro {
+    text-align: center;
+}
+
+.labelform{
+    text-align: start;
+    font-size: 2vh;
+    display: flex;
+    justify-content: start;
+}
+
+
+.inputform{
+    background: #e6ded8;
+    width: 30vh;
+    height: 3vh;
+    border: none;
+}
+
+#titulol{
+    font-size: 2vh;
+    display: flex;
+    justify-content: start;
+}
+
+
+select{
+    width: 35vh;
+    font-size: 2vh;
+    text-align: center;
+    height: 3vh;
+}
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff924b;
+}
+
+#formfaleleft {
+    margin-top: 25px;
+    float: left;
+    padding-right: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#formfaleright {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.selectlabel{
+   text-align: center;
+}
+
+.selectlabel label{
+    text-align: start;
+}
+
+
+#formall{
+margin-top: 30px;
+ text-align: center;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+}
+
+div#formall textarea{
+    background: #e6ded8;
+
+    width: 30vh;
+    height: 13vh;
+}
+
+.linkwhats {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.linkwhats::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #ff924b;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.highlighted-email {
+    margin-top: 2vh;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ff924b; /* Cor de destaque laranja */
+    border-radius: 10px;
+    color: white; /* Cor do texto */
+}
+
+.highlighted-email i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+.linkwhats h1 {
+    position: relative;
+    z-index: 1;
+}
+
+.ou {
+    margin-top: 2vh;
+}
+

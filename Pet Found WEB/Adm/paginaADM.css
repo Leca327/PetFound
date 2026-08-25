@@ -1,0 +1,75 @@
+.topo{
+    border: 2px solid;
+    padding-bottom: 100px;
+    background-color: rgb(255, 94, 35);
+}
+
+.volta{
+    position: absolute;
+    padding: 17px 10px 10px 70px;
+    font-size: 50px;
+    color: #2b1100;
+    text-decoration: none;
+}
+
+.adm {
+    margin-top: 18px;
+    margin-right: 18px;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    float: right;
+  }
+
+
+.img{
+    margin-right: 10px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nome {
+    font-size: 2vh;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333; /* Cor do texto */
+    display: flex;
+    align-items: center;
+  }
+
+.con {
+    display: flex;
+    align-items: center; /* Centraliza os botões verticalmente */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    height: 89vh; /* Define a altura da div para ocupar a tela inteira verticalmente */
+}
+
+.petR, .servico, .not {
+    text-decoration: none;
+    background-color: rgb(255, 94, 35);
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    color: aliceblue;
+    display: flex; /* Usar display flex para alinhar vertical e horizontalmente */
+    flex-direction: column; /* Empilhar elementos verticalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    padding: 10px;
+    height: 12vh;
+    width: 25vh;
+}
+
+
+.petR img, .servico img, .not img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; /* Ajuste conforme necessário */
+    max-width: 200px; /* Define a largura máxima desejada */
+    height: auto; /* Permite que a altura se ajuste automaticamente */
+    width: 7vh;
+}
+

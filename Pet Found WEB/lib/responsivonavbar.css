@@ -1,0 +1,174 @@
+.nav-list {
+  text-align: start;
+  z-index: 1000;
+  list-style: none;
+  display: flex;
+}
+
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div { /*simbolo x 3 icones*/
+    width: 3vh;
+    height: 0.2vh;
+    background: var(--textoprincipal);
+    margin: 0.8vh;
+    transition: 0.3s;
+  }
+
+  .nav-list.active .menu a {
+  border-radius: 0;
+  width: 250px;
+  
+  }
+
+  
+  @media (max-width: 1600px) {
+    body {
+      overflow-x: hidden;
+    }
+
+    .dropbtn{/*nick da pessoa*/
+      color: aqua;
+    }
+    .nav-list {/*bloco do menu-mobile*/
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 25vw;
+      height: 460px;
+      background: var(--fundosecundario2);
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: 0.3s ;
+      display: block;
+    }
+    .nav-list li {/*opções*/
+      top: 8vh;
+      position: absolute;
+      margin-left: 9.7vh;
+      opacity:0;
+      
+    }
+
+    .setinhauser{/*seta dropd*/
+      position: absolute;
+      right: 23vh;
+      top: 3.1vh;
+      font-size: 3vh;
+      color: red;
+    }
+
+    .nav-list.active ul li a{/*escrita das opções*/
+    margin-left: 48px;
+    margin-top: 30px;
+    
+
+
+    
+    }
+
+    .nav-list.active .hrmobmenu {/*linhas*/
+      opacity: 100;
+      display: block;
+      max-width: 1300px;
+      width: 100%;
+      border-color: var(--fundoprincipal1);
+      margin-left: -25vh;
+
+    }
+
+    .nav-list.active ul li ul.dropdown{ /*dropdown*/
+      width: 0%;
+      background: none; 
+      position: none;
+      z-index: 999;
+      display: none;
+      width: 0px;
+      left: 0px;
+
+      
+    }
+
+    .nav-list.active ul li a:hover{ /*Hover da lista*/
+      background: var(--fundoprincipal1); 
+    }
+
+    .nav-list .primenu{
+      margin-left: 0px;
+    }
+    .mobile-menu { /* simbolo X*/
+      display: block;
+    }
+
+    .nav-list.active .login-button {
+      top: 247px;
+    } 
+
+    .nav-list.active .cadastrar-button {
+      top: 300px;
+      border: none;
+      
+    } 
+
+    .logcad button{
+      right: 100000px;
+
+
+    }
+
+    .nav-list.active .logcad button{
+      left: 0px;
+      padding: 20px;
+      padding-right: 375px;
+      margin-left: 0px;
+      border-radius: 0;
+      background: none;
+    }
+
+    .nav-list.active .logcad button{
+      opacity: 1;
+    }
+
+    .nav-list .logcad button:hover{
+      background: var(--fundoprincipal1);
+
+    }
+    
+    @keyframes navLinkFade { /*Icone x*/
+      from {
+        opacity: 0;
+        transform: translateX(0.50vh);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+       
+    }
+        
+  .nav-list.active { /*Abertura lateral*/
+    transform: translateX(0);
+    display: block;
+  }
+  
+  
+ 
+  }
+  /*Rotação x*/
+  .mobile-menu.active .line1 {
+    transform: rotate(-48deg) translate(-0.8vh, 0.8vh);
+  }
+
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(48deg) translate(-0.5vh, -0.7vh);
+  }

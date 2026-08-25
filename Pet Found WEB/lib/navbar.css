@@ -1,0 +1,443 @@
+/*
+.navbar{
+  z-index: 999;
+}
+
+.logo {
+  font-size: 3vh;
+  text-transform: uppercase;
+  letter-spacing: 0.3vh;
+  color: var(--textoprincipal);
+  text-decoration: none;
+  transition: 0.3s;
+ 
+  }
+
+  @media (max-width: 1767px) {
+
+    
+   .primenu{
+    margin-left: 5vh;
+    content: "\25BE";
+   }
+
+   .hrmobmenu{
+    opacity: 0;
+    display: none;
+   }
+
+   .seta{
+    margin-top: -1.5vh;
+    margin-left: 10.5vh;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--textoprincipal);
+    transform: rotate(180deg);
+    transition: 0.3s ease;
+   }
+   
+    
+}
+
+
+  .seta {
+    margin-top: -1vh;
+    margin-left: 7vh;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--textoprincipal);
+    transform: rotate(0deg);
+    transition: 0.3s ease;
+  }
+
+  
+  
+.login-button {
+  background-color: var(--fundoprincipal1);
+  border-style:solid;
+  border-color: var(--fundosecundario1);
+  color: var(--textoprincipal);
+  padding: 1.2vh 2.5vh;
+  right:33vh;
+}  
+
+
+.cadastrar-button {
+  background-color: var(--fundosecundario1);
+  border-style:solid;
+  border-color: var(--fundosecundario1);
+  color: var(--textoprincipal);
+  padding: 1.2vh 2vh;
+  right: 20vh;
+}  
+
+.logcad button{
+  border-radius: 8vh;
+  top: 1.5vh;
+  position: absolute;
+  cursor: pointer;
+  cursor: pointer;
+  margin: 0.4vh 0.2vh;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1.6vh;
+}
+
+.cadastrar-button:hover{
+  opacity: 0.7;
+}
+
+.cadastrar-button:hover,
+.login-button:hover {
+  opacity: 0.7;
+}
+
+.primenu{
+  margin-left: 5vh;
+  content: "\25BE";
+}
+
+.hrmobmenu{
+  opacity: 0;
+  display: none;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--fundoprincipal1);
+  height: 8vh;  
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin-left: 25vh;
+  width: 100%;
+  height: 100%;
+  
+}
+  
+.menu li {
+  font-size: 20px;
+  letter-spacing: 0.3vh;
+  left: -40vh;
+}
+
+.menu ul li{
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li a{ /*Texto*//*
+  display: block;
+  padding: 2vh;
+  color: var(--textoprincipal);
+  text-decoration: none;
+  text-align:start;
+  align-items: start;
+}
+  
+.menu ul li a:hover{
+  background: var(--fundosecundario1); 
+  border-radius: 10px;
+}
+
+.dropdown li a:hover{
+  border-radius: 0;
+}
+
+.menu ul li ul.dropdown li{
+  display: block;
+  align-items: center;     
+}
+
+.menu ul li ul.dropdown{/*caixa dropdown*/ /*     
+  width: 100%;
+  background:var(--fundoprincipal1);
+  position: absolute;
+  z-index: 999;
+  display: none;
+  width: 21vh;
+  left: 5vh;    
+}
+  
+.menu ul li:hover ul.dropdown{/*caixa dropdown*//*
+  display: block;
+}
+
+.dropdown li{ /*Texto dropdown*//*
+  left: 0vh;
+  width: 22vh;
+}
+
+.dropdown li a {
+  padding: 2vh;
+  align-items: center;  
+}
+
+/**//*
+
+.dropbtn {
+  background-color: var(--fundosecundario1);
+  right: 30vh;
+  border: none;
+  color: var(--textoprincipal);
+  padding: 1.2vh 2.5vh;
+  font-size: 1.6vh;
+  cursor: pointer;
+  z-index: 999;
+  border-radius: 8vh;
+}
+
+.dropdown-content {
+  width: 16.5vh;
+  padding-top: 2vh;
+  display: none;
+  position: absolute;
+  background-color: var(--fundosecundario2);
+  right: 25.5vh;
+  top: 5vh;
+
+}
+
+.dropdown-content a {
+  color: var(--textoprincipal);
+  padding: 2vh;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--fundoprincipal1);
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}*/
+
+/* Estilo padrão do link de usuário */
+
+
+/*dropdown*/
+/* Estilize o container dropdown */
+.main {
+  position: relative;
+}
+
+.imgperfil2 img{
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+#vsltd{
+  margin-bottom: 0.5vh;
+  text-align: center;
+}
+
+#vsltd:hover{
+  color: white;
+}
+
+.user {
+  cursor: pointer;
+}
+
+.user:hover{
+  color: #662901;
+  
+}
+
+.dropdown {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--fundosecundario1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.user:hover + .dropdown,
+.dropdown:hover {
+  display: block;
+}
+
+.dropdown li {
+  padding: 10px;
+  text-align: left;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown a:hover {
+  width: 10vh;
+  background-color: var(--fundoprincipal1);
+}
+
+
+/*navbar*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --bg-color:#222327;
+  --text-color: #fff;
+  --main-color: #29fd53;
+}
+
+header{
+  background-color: var(--fundoprincipal1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 12%;
+  transition: all .50s ease;
+}
+
+.logo span{
+  color: #662901;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navbar{
+  display: flex;
+}
+
+.navbar a{
+  color: var(--text-color);
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0px 30px;
+  transition:  all .50s ease;
+}
+
+.navbar a:hover{
+  color: var(--fundosecundario2);
+}
+
+.navbar a.active{
+  color: var(--fundosecundario2);
+}
+
+.main{
+  display: flex;
+  align-items: center;
+}
+
+.main i{
+  font-size: 2rem;
+}
+
+.main a{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all .50s ease;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.hvmsg :hover{
+  color: var(--fundosecundario2);
+}
+
+#menu-icon{
+  font-size: 35px;
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 1000;
+  display: none;
+}
+
+@media (max-width:1280px){
+  header{
+      padding: 14px 2%;
+      transition: .2s;
+  }
+  .navbar a{
+      padding: 5px 0;
+      margin: 0px 20px;
+  }
+}
+
+@media (max-width:1090px){
+  #menu-icon{
+      display: block;
+  }
+  .navbar{
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      width: 270px;
+      height: 29vh;
+      background: var(--fundosecundario1);
+      display: flex;
+      flex-direction:column;
+      justify-content: flex-start;
+      border-radius: 10px;
+      transition: all .50s ease;
+  }
+
+  
+  .navbar a{
+      display: block;
+      margin: 12px;
+      padding: 0px 25px;
+      transition: all .50s ease;
+  }
+  .navbar a:hover{
+      color: var(--text-color);
+      transform: translateY(5px);
+  }
+  .navbar a.active{
+      color: var(--text-color);
+  }
+  .navbar.open{
+      right: 2%;
+
+  }
+
+  .user:hover + .dropdown,
+.dropdown:hover {
+ 
+}
+
+}

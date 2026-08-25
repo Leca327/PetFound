@@ -1,0 +1,76 @@
+.fisica-button {
+  background-color: var(--fundosecundario1);
+  border: none;
+  color: var(--textoprincipal);
+  padding: 1.2vh 2.5vh;
+  left:80vh;
+  
+}  
+
+
+.ong-button {
+  background-color: var(--fundosecundario1);
+  border-style:solid;
+  border-color: var(--fundosecundario1);
+  color: var(--textoprincipal);
+  padding: 0.9vh 2vh;
+  left: 95vh;
+  width: 13vh;
+}  
+
+.fisicad button{
+  border-radius: 8vh;
+  top: 1.5vh;
+  position: absolute;
+  cursor: pointer;
+  cursor: pointer;
+  margin: 0.4vh 0.2vh;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1.6vh;
+  margin-top: 45vh;
+}
+
+@media (max-width: 1767px) {
+.voltar{
+  border-radius: 0;
+}
+}
+
+.ong-button:hover{
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.fisica-button:hover{
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.escrita{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.escrita > h1 {/*letras esquerdas*/
+  font-size: 3vw;
+  color: var(--textoprincipal);
+}
+
+.right-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.escrita .frase2{
+  margin-left: 50vh;
+}

@@ -1,0 +1,104 @@
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.cards1{
+    position: relative;
+    margin: 5px; /* Ajuste a margem para controlar o espaçamento entre os cards */
+    padding: 20px; /* Ajuste o padding para definir o espaço interno do card */
+    border: none;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.cards1  h3 {/*nome pet*/
+    position: absolute;
+    background: var(--fundosecundario1);
+    top: 170px; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 200px;
+    font-size: 18px; 
+    margin-top: 60px;
+}
+
+.cards1  h4 {/*local cidade/estado*/
+    position: absolute;
+    background: var(--fundosecundario1);
+    top: 170px; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 200px;
+    font-size: 13px; 
+    margin-top: 77px;
+}
+
+.cards1  h5 {/*preco*/
+    position: absolute;
+    background: var(--fundosecundario1);
+    top: 184px; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 200px;
+    font-size: 13px; 
+    margin-top: 77px;
+}
+
+.cards1 .imgcardpet{/*imagem*/
+    background-color: var(--fundosecundario1);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 11px 11px 0px 0px;
+    margin-bottom: -4px;
+    border: solid 4px;
+    border-color:var(--fundosecundario1);
+}
+
+.cards1 .butcardpet{/*botão ajude-me*/
+    margin-top: 35px; 
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px ;
+    background: var(--fundosecundario1);
+    border: none;
+    text-decoration: none;
+    font-style: none;
+}
+
+.cards1 .butcardpet1{/*botão ajude-me*/
+    margin-top: 40px; 
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px ;
+    background: var(--fundosecundario1);
+    border: none;
+    text-decoration: none;
+    font-style: none;
+}
+
+.cards1 .butcardpet:hover{
+    transition: 0.3s;
+    background: var(--fundoprincipal1);
+}
+
+.cards1 a{
+    text-decoration: none;
+    font-style: none;
+    color: #ffffff;
+}

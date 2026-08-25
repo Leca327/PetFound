@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff6600;
+}
+
+.loading-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    width: 300px; /* Aumentando a largura do card */
+}
+
+.loading-message {
+    font-size: 24px; /* Aumentando o tamanho da fonte da mensagem */
+    margin-bottom: 20px;
+}
+
+.loading-spinner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.loading-spinner {
+    border: 4px solid #ff924b;
+    border-top: 4px solid #f3f3f3;
+    border-radius: 50%;
+    width: 60px; /* Aumentando o tamanho do círculo */
+    height: 60px; /* Aumentando o tamanho do círculo */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

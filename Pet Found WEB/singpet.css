@@ -1,0 +1,32 @@
+.pet-cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .petsing {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .petsing input{
+    border-radius: 5vh;
+    height: 3vh;
+    color: white;
+    width: 30vh;
+    background-color: var(--fundosecundario2);
+  }
+
+  .imgpet{
+    border-radius: 5vh;
+    text-align: center;
+    background-color: wheat;
+    width: 30vh;
+    height: 30vh;
+  }
+ 
+  .namepet{
+    text-align: center;
+    
+
+  }

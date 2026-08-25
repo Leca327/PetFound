@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+*{
+	margin: 0 auto; 
+	padding: 0; 
+	font-family: "BRLNSR", sans-serif;
+}
+
+
+
+@font-face {
+  font-family: "BRLNSR";
+  src: url("../assets/fonte/BRLNSR.TTF") format("truetype");
+}
+
+body{
+	background-color:var(--fundopagina);
+}
+/*main {
+  background: url("470373.jpg") no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+  }*/
+
+  :root {
+    --texto3:#263238;
+    --fundosecundario2: #662901;
+    --fundoprincipal2: #2b1100;
+    --Textosecundario: #a8a29e;
+    --textoprincipal: rgb(243,241,241);
+    --fundoprincipal1: #ff6600;
+    --fundosecundario1:#ff924b ;
+    --fundopagina: #cec9c9;  
+    --scrollbar1:rgb(143, 143, 143);
+  }
+
+  h1{
+    color: var(--fundoprincipal2);
+    font-size: 3.2vh;
+  }
+
+  h2{
+    font-size: 4.2vh;
+  }
+  
+ 
+  ::-webkit-scrollbar{
+    width: 1.1vh;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--fundopagina);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 35px;
+    background-color: var(--scrollbar1);
+}

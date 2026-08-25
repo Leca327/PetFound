@@ -1,0 +1,140 @@
+.editsadm{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(47, 172, 255);
+}
+
+.delsadm{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+.tbladm td {
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 9.4px;
+}
+
+button:disabled{
+    background-color: #b6622a;
+}
+
+.sairadm {
+    position: absolute;
+    left: 10vh;
+    top: 1vh;
+    border-radius: 10px;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #662901;
+}
+
+
+.delsadm{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+.btnS1{
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: green;
+
+}
+
+.btnS6{
+    color: white;
+    padding: 5px 30px;
+    background-color: #662901;
+    border-radius: 10px;
+
+}
+
+.btns{
+    margin-top: 10px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.btns2{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnS2{
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: red;
+
+}
+.btnS3{
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: white;
+
+}
+.btnS4{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #662901;
+    color: white;
+
+}
+
+
+select{
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #662901;
+}
+
+
+label {
+    font-size: 20px;
+    color: white; 
+}
+
+body {
+    background-color: #ff924b;
+
+}
+
+.filtro{
+    text-align: center;
+}
+
+
+.tbladm {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    border-collapse: collapse;
+    list-style: none;
+    border-radius: 15px;
+    color: white;
+    background: #662901;
+}
+
+.poss{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2.5vh;
+}
+
